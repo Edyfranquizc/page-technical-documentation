@@ -10,7 +10,8 @@ body{
     font-family: 'Nunito Sans', sans-serif;
     background-color:#E8F3F1;
     color: black;
-    font-size: 20px;  
+    font-size: 20px;
+    text-align: justify; 
     
 }
 
@@ -124,7 +125,6 @@ code {
 }
 
 footer{
-  margin-right: 50px;
   text-align: center;
   color: rgb(0, 0, 0);
 }
