@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Berkshire+Swash&family=Lato:wght@100&family=Nunito+Sans:wght@200&family=Pontano+Sans&family=Press+Start+2P&family=Righteous&family=Roboto:wght@500&family=Solway:wght@300&display=swap" rel="stylesheet">
+
+    <title>Pag-techinal-documentation</title>
+</head>
+<body>
+
+  <main id="main-doc">
+  
+    <nav id="navbar">
+      <div class="divider"></div>
+      <header>HTML DOCUMENTACION</header>
+      <ul>
+        <li><a class="nav-link" href="#Introducción_a_HTML"style="text-decoration:none";>Introducción a HTML</a></li>
+      <li><a class="nav-link" href="#Marcador_HTML"style="text-decoration:none;">Marcador HTML</a></li>
+      <li><a class="nav-link" href="#tablas_HTML"style="text-decoration:none;">Tablas HTML</a></li>
+      <li><a class="nav-link" href="#Imágenes_en_HTML"style="text-decoration:none;">Imágenes en HTML</a></li>
+      <li><a class="nav-link" href="#Elementos"style="text-decoration:none;">
+        Elementos</a></li>
+        <li><a class="nav-link" href="#Atributos"style="text-decoration:none;">Atributos</a></li>
+          <li><a class="nav-link" href="#Referencia"style="text-decoration:none;">Referencia</a></li>
+      </ul>
+    </nav>
+  
+    <div class="content">
+    <section id="Introducción_a_HTML" class="main-section">
+      <header>Introducción a HTML</header>
+      <p>
+       ¿ Que es el HTML?
+        El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos. Como lo sugiere el título, este artículo te dará una comprensión básica de HTML y cúal es su función.
+        </p>
+        <p>HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera. Las etiquetas de encierre pueden hacer de una palabra o una imagen un hipervínculo a otro sitio, se pueden cambiar palabras a cursiva, agrandar o achicar la letra, etc</p>
+      
+      <p>
+          Anatomía de un elemento HTML
+          lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      
+       <ol>
+        <li>La etiqueta de apertura: consiste en el nombre del elemento (en este caso, p), encerrado por paréntesis angulares (< >) de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento —en este caso, dónde es el comienzo del párrafo—.
+        </li>
+        <li>La etiqueta de cierre: es igual que la etiqueta de apertura, excepto que incluye una barra de cierre (/) antes del nombre de la etiqueta. Establece dónde termina el elemento —en este caso dónde termina el párrafo—.
+        </li>
+        <li>El contenido: este es el contenido del elemento, que en este caso es sólo texto.</li>
+        <li>El elemento: la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento.</li>
+      </ol>
+
+      
+    </section>
+
+    <section id="Marcador_HTML" class="main-section">
+      <header>Marcador HTML</header>
+      <p>
+         Elemento y Atributos 
+        El HTML se escribe en forma de «etiquetas», rodeadas por corchetes angulares <code>(<,>,/)</code> El HTML también puede describir, hasta un cierto punto, la apariencia de un documento, y puede incluir o hacer referencia a un tipo de programa llamado script, el cual puede afectar el comportamiento de navegadores web y otros procesadores de HTML.
+
+        HTML también sirve para referirse al contenido del tipo de MIME text/html o todavía más ampliamente como un término genérico para el HTML, ya sea en forma descendida del XML (como XHTML 1.0 y posteriores) o en forma descendida directamente de SGML (como HTML 4.01 y anteriores). HTML consta de varios componentes vitales, entre ellos los elementos y sus atributos, tipos de data y la declaración de tipo de documento.
+      </p>
+      
+        <ul>
+        <li>Elementos: Los elementos son la estructura básica de HTML. Los elementos tienen dos propiedades básicas: atributos y contenido. Cada atributo y contenido tiene ciertas restricciones para que se considere válido al documento HTML. Un elemento generalmente tiene una etiqueta de inicio por ejemplo: <code><-nombre-de-elemento></-nombre-de-elemento></code> Y una etiqueta de cierre (por ejemplo,<>nombre-de-elemento</></code> ). Los atributos del elemento están contenidos en la etiqueta de inicio y el contenido está ubicado entre las dos etiquetas (por ejemplo, El marcado estructural describe el propósito del texto. El marcado estructural no define cómo se verá el elemento, pero la mayoría de los navegadores web han estandarizado el formato de los elementos. Puede aplicarse un formato específico al texto por medio de hojas de estilo en cascada.
+          <code><-nombre-de-elemento atributo="valor">Contenido</-nombre-de-elemento>)</code>
+
+          El marcado presentacional describe la apariencia del texto, sin importar su función. Por ejemplo: <code><-b>negrita</-b></code> indica que los navegadores web visuales deben mostrar el texto en negrita, pero no indica qué deben hacer los navegadores web que muestran el contenido de otra manera (por ejemplo, los que leen el texto en voz alta). En el caso de: <code><-b>negrita</-b></code> <code><-i>itálica</-i></code> Existen elementos que se ven de la misma manera pero tienen una naturaleza más semántica: <code><-strong>énfasis fuerte</-strong></code> <code><-em>énfasis</-em></code> Es fácil ver cómo un lector de pantalla debería interpretar estos dos elementos. Sin embargo, son equivalentes a sus correspondientes elementos presentacionales: un lector de pantalla no debería decir más fuerte el nombre de un libro, aunque el nombre resalte en itálicas en una pantalla. La mayoría del marcado presentacional ha sido desechada desde la versión 4.01, en favor de las hojas de estilo en cascada.</li>
+        <br>
+        <li>Atributos: En su mayoría los atributos de un elemento son pares nombre-valor, separados por un signo de igual «=» y escritos en la etiqueta de comienzo de un elemento, después del nombre del elemento. El valor puede estar rodeado por comillas dobles o simples, aunque ciertos tipos de valores pueden estar sin comillas en HTML (pero no en XHTML). De todas maneras, dejar los valores sin comillas es considerado poco seguro. En contraste con los pares nombre-elemento, hay algunos atributos que afectan al elemento simplemente por su presencia</li>
+      </ul>
+
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Etiquetas_en_HTML.png/525px-Etiquetas_en_HTML.png" alt="#">
+    
+       <p> <strong>Etiquetas Basícas de html</strong>  <br>
+        Podemos usar las etiquetas HTML para crear párrafos de texto, insertar imágenes en nuestra pagina web, crear tablas, construir listas, resaltar palabras o frases en negrita y un largo etcétera. Vamos a plasmar otro ejemplo, en este caso quiero crear una lista de elementos.</p>
+     
+      <img src="https://sok19565.neocities.org/proyecto/img/etiquetas.png" alt="">
+    </section>
+
+    <section id="tablas_HTML" class="main-section">
+      <header>Tablas HTML</header>
+      <p>
+        <code>Tablas <-table></code>
+        Una tabla no es otra cosa más que un medio de organizar datos en filas y columnas. Este concepto ha estado presente en nuestra sociedad por un largo período de tiempo y ha sido adoptado por HTML en sus etapas iniciales, como una forma de transmitir información que, de otro modo, no sería comprendida tan fácilmente.
+
+        En documentos HTML una tabla puede ser considerada, resumidamente, como un grupo de filas donde cada una contiene a un grupo de celdas. Esto es conceptualmente distinto a un grupo de columnas que contiene a un grupo de filas, y esta diferencia tendrá un impacto en la composición y comportamiento de la tabla.
+      </p>
+      <p>Clases de tablas</p>
+        <ul>
+        <li>Clase HTMLTableCell</li>
+        <p>La clase HTMLTableCell toma como entrada cualquier objeto HTMLTagElement y crea el código HTML de casilla de tabla con el elemento especificado. El elemento se puede establecer en el constructor o mediante uno de los dos métodos setElement().</p>
+        <li>Clase HTMLTableRow</li>
+        <p>La clase HTMLTableRow crea una fila dentro de una tabla. Esta clase proporciona diversos métodos para obtener y establecer los atributos de una fila.</p>
+        <li>Clase HTMLTableHeader</li>
+        <p>La clase HTMLTableHeader es heredera de la clase HTMLTableCell. Crea un tipo específico de casilla, la casilla de cabecera, que proporciona una casilla de tipo <th> en vez de una casilla de tipo <td>. Al igual que sucede con la clase HTMLTableCell, se puede llamar a diversos métodos con el fin de actualizar o recuperar los atributos de la casilla de cabecera.</p>
+        <li>Clase HTMLTableCaption</li>
+        <p>La clase HTMLTableCaption crea un título para la tabla HTML. Proporciona métodos para actualizar y recuperar los atributos del título. Por ejemplo, puede utilizar setAlignment() para especificar con qué componente de la tabla se debe alinear el título.</p>
+      </ul>
+       
+    </section>
+    <section id="Imágenes_en_HTML" class="main-section">
+      <header>Imágenes en HTML</header>
+      <p>
+        ¿Cómo ponemos una imagen en una página web?
+        Al principio, la web solo era texto y resultaba más bien aburrido. Afortunadamente, no pasó mucho tiempo antes de que se añadiera la capacidad de insertar imágenes (y otros tipos de contenido más interesantes) en las páginas web. Hay otros tipos de elementos multimedia que tener en cuenta, pero es lógico comenzar con el humilde elemento <code> <-img></code> utilizado para insertar una imagen simple en una página web. En este artículo, veremos en detalle cómo usar este elemento, incluidos sus conceptos básicos y cómo añadir pies de imagen usando <code>(<-figure>)</code> y explicaremos cómo se relaciona con las imágenes de fondo en CSS.
+      
+          Para poner una imagen simple en una página web, utilizamos el elemento <code><-img></code> Se trata de un elemento vacío (lo que significa que no contiene texto o etiqueta de cierre) que requiere de por lo menos de un atributo para ser utilizado: src (a veces denominado por su nombre completo, source). El atributo src contiene una ruta que apunta a la imagen que quieres poner en la página, que puede ser una URL relativa o absoluta, de la misma forma que el elemento <-a> contiene los valores del atributo href.
+            <br>  
+      </p>
+      <img src="https://www.picuino.com/_images/html-combine2-html.png" alt="">
+       
+    </section>
+    <section id="Elementos" class="main-section">
+      <header>Elementos</header>
+     
+      <p>Elementos anidados
+        Se pueden poner elementos dentro de otros elementos. Esto se llama anidamiento. Si quisiéramos decir que nuestro gato es muy gruñón, podríamos encerrar la palabra muy en un elemento  <code><-strong></code> para que aparezca destacada.
+        
+          Hay una forma correcta e incorrecta de anidar. En el ejemplo anterior, primero abrimos el elemento p, luego abrimos el elemento strong. Para un anidamiento adecuado, primero debemos cerrar el elemento strong, antes de cerrar el p.
+      </p>
+
+      <p>
+        Elementos de bloque y elementos en línea
+      </p>
+        <ul>
+          <li>Los elementos de bloque forman un bloque visible en la página. Aparecerán en una línea nueva después de cualquier contenido anterior. Cualquier contenido que vaya después también aparecerá en una línea nueva. Los elementos a nivel de bloque suelen ser elementos estructurales de la página. Por ejemplo, un elemento a nivel de bloque puede representar encabezados, párrafos, listas, menús de navegación o pies de página. Un elemento a nivel de bloque no estaría anidado dentro de un elemento en línea, pero podría estar anidado dentro de otro elemento a nivel de bloque.</li>
+          <li>Los elementos en línea están contenidos dentro de elementos de bloque y delimitan solo pequeñas partes del contenido del documento; (no párrafos enteros o agrupaciones de contenido) Un elemento en línea no hará que aparezca una nueva línea en el documento. Suele utilizarse con texto. Por ejemplo es el caso de un elemento. (hipervínculo) o elementos de énfasis como<code><-a></code>   <code><-em></-em></code> <code><-strong></-strong></code></li>
+         </ul>
+
+        <p>
+          Elementos vacíos
+          No todos los elementos siguen el patrón de etiqueta de apertura, contenido y etiqueta de cierre. Algunos elementos consisten solo en una etiqueta única, que se utiliza generalmente para insertar/incrustar algo en el documento en el lugar donde se le quiere incluir. Por ejemplo, el elemento <code><-img></code> inserta una imagen en la página:
+        </p>
+
+     
+      <p>Este texto mostrará lo siguiente en tu página:</p> <br>
+
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuHpxOvoGINIbXeEY3NxkyIRTPIBvjchGKKyz-pTRQG2SuQt5A8yBEJ8I4IZUi0u_6F9DJrFlJ_0pA3N3SC8hBNmJxzjxMH8Ik46G62sCeZPYPUVQERHc7nNszVW308jxIb026ebytPq7IHlXNEQiTvQrx0U4GEygXrruf67Xj4VaHXpl3aQYxOQd2/s1361/insertar_imagen_en_html.jpg" alt="">
+      <br>
+      <br>
+        
+    </section>
+    <section id="Atributos" class="main-section">
+      <header>Atributos</header>
+      <p>
+        Los atributos contienen información extra sobre el elemento que no se mostrará en el contenido. En este caso, el atributo class asigna al elemento un identificador que se puede utilizar para dotarlo de información de estilo.
+      </p>
+      
+       <ul>
+        <li>Un espacio entre este y el nombre del elemento. (Para un elemento con más de un atributo, los atributos también deben estar separados por espacios).</li>
+        <li>El nombre del atributo, seguido por un signo igual.</li>
+        <li>Un valor del atributo, rodeado de comillas de apertura y cierre.</li>
+      
+      </ul>
+      <p>
+        Añadir atributos a un elemento
+        Otro ejemplo de un elemento es <a>. Esto significa ancla. Una ancla puede convertir el texto que encierra en un hipervínculo. Las anclas pueden tener varios atributos, pero varios son como sigue:
+      </p>
+        <ul>
+        <li>href: El valor de este atributo indica la dirección web a la que se quiere que apunte el enlace, que será hacia donde nos lleve el navegador cuando se haga clic sobre el elemento. Por ejemplo, <code>href="https://www.mozilla.org/".</code></li>
+        <li>title: El atributo title añade información adicional sobre el enlace, como puede ser el título de la página que vinculas. Por ejemplo, <code>title="La página de inicio de Mozilla".</code>  Esta información aparecerá cuando se le pase el ratón por encima.</li>
+        <li>target: El atributo target especifica el contexto de navegación que va a usar para mostrar el enlace. Por ejemplo, abrirá el enlace en una nueva pestaña.
+          Si quieres mostrar el enlace en la pestaña activa, simplemente omite este atributo.<code>target="_blank"</code>
+           </li>
+        
+      </ul>
+      <p> Atributos booleanos
+        En ocasiones puedes ver atributos escritos sin valor. Esto está permitido. Estos se denominan atributos booleanos. Los atributos booleanos solo pueden tener un valor, que generalmente es el mismo que el nombre del atributo. Por ejemplo, considera el atributo disabled, que puedes asignar a los elementos de entrada del formulario. (Usa esto para deshabilitar los elementos de entrada del formulario para que el usuario no pueda realizar entradas. Los elementos desactivados suelen tener una apariencia atenuada). Por ejemplo:
+        <code><-input type="text" disabled="disabled"></code>
+
+      </p>
+    </section>
+    <section id="Referencia" class="main-section">
+      <header>Referencia</header>
+      
+      <article>
+        <ul>
+          <li>
+            Toda la documentación en esta página está tomada de
+            <a href="https://developer.mozilla.org/es/" target="_blank">MDN</a>
+          </li>
+  
+        </ul>
+      </article>
+      
+    </section>
+   </div>
+  </main>
+  <footer>
+    <h6>Copyright© 2022</h6>
+    <h6>Desarrollado por 
+      Edygar Franquiz C Diseñador Web</h6>
+  </footer>
+   
+</body>
+</html>
